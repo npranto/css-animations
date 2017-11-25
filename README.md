@@ -1,3 +1,3 @@
-CSS Animations
+# CSS Animations
 
 Transforms and Transitions

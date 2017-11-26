@@ -56,3 +56,38 @@ div {
 	transform: rotate(45deg);
 }
 ```
+
+####Transitions
+##### 4 transition properties:
+* transition duration: duration of the transition
+```css
+div {
+	transition-duration: 1s;
+}
+```
+* transition property: specifies which css properties to transition
+```css
+div {
+	transition-property: color, border-radius;
+}
+```
+* transition-timing-function: controls aceleration of transition during the transition duration
+```css
+div {
+	transition-timing-function: easeInSine;
+}
+```
+Refer to [http://easings.net/](http://easings.net/) for more transition timing functions
+* transition-delay: how long to delay before the transition starts
+```css
+div {
+	transition-delay: 0.5s;
+}
+```
+
+####For performance reasons, only change the following CSS properties
+* transform: translate
+* transform: scale
+* transform: rotate
+* opacity
+

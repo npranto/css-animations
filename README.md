@@ -1,7 +1,6 @@
 # CSS Animations
 
 * Transforms and Transitions
-
 * To add vendor prefixes, go to [Autoprefixer](http://autoprefixer.github.io/)
 
 

@@ -1,11 +1,11 @@
-#CSS Animations
+# CSS Animations
 
-Transforms and Transitions
+* Transforms and Transitions
 
-To add vendor prefixes, go to [Autoprefixer](http://autoprefixer.github.io/)
+* To add vendor prefixes, go to [Autoprefixer](http://autoprefixer.github.io/)
 
 
-####Popular Pseudo Classes
+#### Popular Pseudo Classes
 * hover: applies whenever you hover over a DOM element
 ```css
 a:hover {
@@ -25,7 +25,7 @@ a:active {
 }
 ```
 
-####Popular Transforms
+#### Popular Transforms
 * translateX: moves a DOM element right or left
 ```css
 button {
@@ -57,7 +57,7 @@ div {
 }
 ```
 
-####Transitions
+#### Transitions
 ##### 4 transition properties:
 * transition duration: duration of the transition
 ```css
@@ -85,7 +85,7 @@ div {
 }
 ```
 
-####For performance reasons, only change the following CSS properties
+#### For performance reasons, only change the following CSS properties
 * transform: translate
 * transform: scale
 * transform: rotate

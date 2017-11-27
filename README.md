@@ -1,8 +1,8 @@
 # CSS Animations
 
-* Transforms and Transitions
-* To add vendor prefixes, go to [Autoprefixer](http://autoprefixer.github.io/)
+### Transforms and Transitions
 
+To add vendor prefixes, go to [Autoprefixer](http://autoprefixer.github.io/)
 
 #### Popular Pseudo Classes
 * hover: applies whenever you hover over a DOM element
@@ -89,4 +89,10 @@ div {
 * transform: scale
 * transform: rotate
 * opacity
+
+
+### Keyframes
+
+Allows you to apply multi state animations
+
 

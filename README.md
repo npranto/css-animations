@@ -95,4 +95,52 @@ div {
 
 Allows you to apply multi state animations
 
+#### Defining Keyframes 
+##### Keyframe Animation Properties
+* animation-name: name of the keyframe animation to apply
+* animation-duration: duration of the keyframe animation (i.e., 1s)
+* animation-timing-function: animation function to apply for keyframe animation (i.e., ease-in) 
+* animation-delay: the delay time for keyframe animation (i.e., 2s)
+* animation-iteration-count: the number of times the keyframe animation should run (i.e., 2, 100, infinite)
+* animation-direction: the direction to run the keyframe animations (i.e., forward, reverse, alternate)
+* animation-fill-mode: if animation-delay is applied, it controls timing of different keyframe animations to apply of an element (i.e., none, forward, backward, both)
+* animation-play-state: controls whether or not to run or pause the animation (i.e., paused, running)
+
+[_**Quick Demo**_](https://codepen.io/npranto/pen/zPmVKm)
+```css
+	@keyframes rainbowtext {
+		0% {
+			color: red;
+			font-size: 20px;
+		}
+		25% {
+			color: orange;
+		}
+		50% {
+			color: yellow;
+			font-size: 40px;
+		}
+		75% {
+			color: green;
+		}
+		100% {
+			color: blue;
+			font-size: 20px;
+		}
+	}
+```
+
+#### Applying keyframes
+```css
+	<!-- applying above keyframe to a <p> element -->
+	p {
+		animation-name: rainbowtext;
+		animation-duration: 2s;
+		animation-timing-function: ease-in;
+		animation-delay: 0s;
+		animation-iteration-count: infinite
+	}
+```
+
+
 
